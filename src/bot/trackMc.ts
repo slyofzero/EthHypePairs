@@ -72,8 +72,8 @@ export async function trackMC() {
           };
 
           // Links
-          const tokenLink = `https://solscan.io/token/${tokenAddress}`;
-          const dexScreenerLink = `https://dexscreener.com/solana/${address}`;
+          const tokenLink = `https://etherscan.io/token/${address}`;
+          const dexScreenerLink = `https://dexscreener.com/ethereum/${address}`;
           const birdEyeLink = `https://birdeye.so/token/${tokenAddress}?chain=ethereum`;
 
           const text = `Powered By [Volumizer](https://t.me/Volumizer)
